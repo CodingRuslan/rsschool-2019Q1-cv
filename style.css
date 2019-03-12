@@ -1,33 +1,69 @@
+*{
+    margin: 0;  
+}
+
 html{
-    background-color: #F9F0F0;
+    background-color: white;
 }
 
 body{
-    width: 970px;
-    height: 300px;
+    width: 1020px;
+    height: 780px;
     margin: 0 auto;
-    background-color: #d9e5ff;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-}
-
-h1{
-    display:none;
+    background-color: #193153;
 }
 
 a{
     text-decoration: none;
+    color: white;
 }
 
-.avatar{
+.header{
+    background-color: #37afe3;
+    height: 170px;
+}
+
+.logo {
     position: relative;
-    width: 200px;
-    float: left;
-    margin: 4px 23px 2px 0px;
+    left: 5%;
+    top: 4%;
+    height: 160px;
+    width: 180px;
+    display: block;
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    background-image: url('avatar.jpg');
+    background-size: cover;
+  }
+
+.name{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    color: white;
+    font-family: Aller;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
 }
 
-.list-info{
-    color: #000000;
-    /* text-shadow: 3px 3px 10px black; */
-    font-family: 'Roboto Condensed', sans-serif;
+.contacts{
+    position: absolute;
+    left: 62%;
+    top: 10%;
+    color: white;
+}
+
+.container{
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.container div{
+    text-align: center;
+    margin: 0;
+    border-top: 10px solid white;
+}
+
+.container p{
+    text-align: center;
+    margin: 17px 0;
 }
